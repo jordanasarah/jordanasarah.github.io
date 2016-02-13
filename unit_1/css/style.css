@@ -1,7 +1,24 @@
 body { 
     background-color:azure;
+    text-align: center;
 }
 
-h1, p {
+h1 {
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+    font-weight: normal;
+    text-decoration: overline;
     color: blue;
+}
+
+p {
+    font-family: "Courier New", monospace;
+    font-style: italic;
+    text-transform: lowercase;
+}
+#second {
+    font-weight: bold;
+}
+.important {
+    font-size: 32px;
 }
